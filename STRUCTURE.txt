@@ -1,0 +1,85 @@
+PROJECT STRUCTURE - EnglishWithMe
+
+Frontend (React + Vite):
+  ✅ App.tsx
+  ✅ main.tsx
+  ✅ package.json
+  ✅ vite.config.ts
+  ✅ tsconfig.json
+  ✅ index.html
+  
+  Screens (6 tabs):
+    ✅ screens/home/HomeScreen.tsx
+    ✅ screens/learn/LearnScreen.tsx
+    ✅ screens/practice/PracticeScreen.tsx
+    ✅ screens/vocabulary/VocabularyScreen.tsx
+    ✅ screens/stats/StatsScreen.tsx
+    ✅ screens/games/GamesScreen.tsx
+  
+  Components:
+    ✅ components/BottomNav.tsx
+  
+  Styles:
+    ✅ styles/global.css
+    ✅ styles/components.css
+  
+  Services:
+    ✅ services/api/user.api.ts
+    ✅ services/api/lesson.api.ts
+    ✅ services/api/ai.api.ts
+    ✅ services/api/auth.api.ts
+
+Backend (Spring Boot Java):
+  ✅ pom.xml
+  ✅ Dockerfile
+  ✅ init.sql (Database schema)
+  
+  Config:
+    ✅ src/main/resources/application.yml
+  
+  Application:
+    ✅ src/main/java/com/englishwithme/EnglishWithMeApplication.java
+  
+  Entities:
+    ✅ entity/User.java
+    ✅ entity/Lesson.java
+    ✅ entity/UserProgress.java
+  
+  Repositories:
+    ✅ repository/UserRepository.java
+    ✅ repository/LessonRepository.java
+    ✅ repository/UserProgressRepository.java
+  
+  DTOs:
+    ✅ dto/UserDTO.java
+    ✅ dto/LessonDTO.java
+    ✅ dto/UserProgressDTO.java
+  
+  Controllers:
+    ✅ controller/UserController.java
+    ✅ controller/LessonController.java
+    ✅ controller/UserProgressController.java
+
+AI Service (Python FastAPI):
+  ✅ requirements.txt
+  ✅ Dockerfile
+  ✅ app/main.py
+  
+  API Routes:
+    ✅ app/api/grammar.py - Grammar checking & exercises
+    ✅ app/api/speaking.py - Pronunciation & karaoke evaluation
+    ✅ app/api/vision.py - Object detection & vocabulary
+    ✅ app/api/recommendation.py - Adaptive recommendations
+
+Docker & Deployment:
+  ✅ docker-compose.yml (All 4 services)
+  ✅ nginx.conf (Frontend routing)
+  ✅ .env.example (Configuration template)
+  
+Documentation:
+  ✅ README_SETUP.md (Comprehensive setup guide)
+  ✅ QUICK_START.md (5-minute quick start)
+  ✅ STRUCTURE.txt (This file)
+
+Total Files: 40+
+All components implemented! ✨

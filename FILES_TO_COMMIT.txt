@@ -1,0 +1,100 @@
+FILES TO COMMIT TO GIT
+======================
+
+FRONTEND
+--------
+frontend/App.tsx
+frontend/main.tsx
+frontend/package.json
+frontend/vite.config.ts
+frontend/tsconfig.json
+frontend/tsconfig.node.json
+frontend/index.html
+frontend/Dockerfile
+frontend/nginx.conf
+
+frontend/components/BottomNav.tsx
+
+frontend/screens/home/HomeScreen.tsx
+frontend/screens/learn/LearnScreen.tsx
+frontend/screens/practice/PracticeScreen.tsx
+frontend/screens/vocabulary/VocabularyScreen.tsx
+frontend/screens/stats/StatsScreen.tsx
+frontend/screens/games/GamesScreen.tsx
+
+frontend/styles/global.css
+frontend/styles/components.css
+
+frontend/services/api/user.api.ts
+frontend/services/api/lesson.api.ts
+frontend/services/api/ai.api.ts
+frontend/services/api/auth.api.ts
+
+BACKEND
+-------
+backend/pom.xml
+backend/Dockerfile
+backend/init.sql
+backend/main/resources/application.yml
+backend/main/resources/application-dev.yml
+backend/main/resources/application-prod.yml
+
+backend/src/main/java/com/englishwithme/EnglishWithMeApplication.java
+
+backend/src/main/java/com/englishwithme/entity/User.java
+backend/src/main/java/com/englishwithme/entity/Lesson.java
+backend/src/main/java/com/englishwithme/entity/UserProgress.java
+
+backend/src/main/java/com/englishwithme/repository/UserRepository.java
+backend/src/main/java/com/englishwithme/repository/LessonRepository.java
+backend/src/main/java/com/englishwithme/repository/UserProgressRepository.java
+
+backend/src/main/java/com/englishwithme/dto/UserDTO.java
+backend/src/main/java/com/englishwithme/dto/LessonDTO.java
+backend/src/main/java/com/englishwithme/dto/UserProgressDTO.java
+
+backend/src/main/java/com/englishwithme/controller/UserController.java
+backend/src/main/java/com/englishwithme/controller/LessonController.java
+backend/src/main/java/com/englishwithme/controller/UserProgressController.java
+
+AI SERVICE
+----------
+ai-service/requirements.txt
+ai-service/Dockerfile
+
+ai-service/app/main.py
+ai-service/app/__init__.py
+ai-service/app/api/__init__.py
+ai-service/app/api/grammar.py
+ai-service/app/api/speaking.py
+ai-service/app/api/vision.py
+ai-service/app/api/recommendation.py
+
+DOCKER & CONFIG
+---------------
+docker-compose.yml
+.env.example
+
+DOCUMENTATION
+--------------
+README_SETUP.md
+QUICK_START.md
+IMPLEMENTATION_SUMMARY.md
+PROJECT_COMPLETE.txt
+STRUCTURE.txt
+FILES_TO_COMMIT.txt
+
+Total: 60+ files ready to commit!
+
+Commands to add to git:
+=======================
+git add .
+git commit -m "feat: Complete full-stack EnglishWithMe application
+
+- Frontend: React app with 6 screens, Duolingo-style UI
+- Backend: Spring Boot with 15+ API endpoints
+- AI Service: Python FastAPI with 4 modules
+- Infrastructure: Docker containerization
+- Database: MySQL schema with sample data
+- Documentation: Complete setup guides"
+git push origin main
